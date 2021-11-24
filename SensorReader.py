@@ -10,11 +10,11 @@ hum = 0
 def return_values ():
         try:
             temp = sensor.temperature
-            hum = sensor.humidity
-            #print("Temp: {}, Humidity: {}".format(temp, hum)) 
+            hum = sensor.humidity 
             return temp, hum       
         except RuntimeError as error:
-            print(error.args[0])
+            #print(error.args[0])
+            #raise error
             pass
         except Exception as error:
             sensor.exit()

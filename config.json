@@ -1,0 +1,6 @@
+{
+	"api":{
+		"name":"tempapi",
+		"baseUrl":"https://hometempapi.azurewebsites.net"
+	}
+}
